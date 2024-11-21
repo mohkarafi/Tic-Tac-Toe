@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+
+
+    <!-- Game Begin -->
+    <div id="overlay">
+        <div id="message">
+            <div id="close">
+                <i class="fa fa-close"></i>
+            </div>
+            <div class="content">
+                <p> is the
+                <h1>winner</h1>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="tools">
+            <div class="symbols">
+                <i class="fa fa-close"></i>
+                <i class="fa fa-circle-o"></i>
+            </div>
+            <div class="turn">
+                <span class="current-turn">turn</span>
+            </div>
+            <div class="reset">
+                <div class="reset" style="color: coral;">
+                    <i class="fa fa-rotate-right"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="board">
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="cells">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+        </div>
+
+
+        <div class="stats">
+            <div class="player">
+                <label>player 1</label>
+                <span class="score-1">0</span>
+            </div>
+            <div class="draws">
+                <label>Draws</label>
+
+                <span class="draw">0</span>
+            </div>
+            <div class="player">
+                <label>player 2</label>
+                <span class="score-2">0</span>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- End Game  -->
+</body>
+<script src="Game.js"></script>
+
+</html>
